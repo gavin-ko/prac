@@ -1,0 +1,99 @@
+.warp{
+    width: 480px;
+    height: 800px;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid grey;
+    background-color:#45494E;
+    
+}
+
+.background{
+    width:480px;
+    height:500px;
+    
+    /* background:url("../image/dad_and_me.jpg"); */
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0,0.9)),url("../image/dad_and_me.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.line{
+    margin-bottom: 1px;
+    color:aliceblue;
+}
+
+.background > p{
+    color:white;
+}
+
+.footer{
+    height: 300px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.profile{
+    width: 140px;
+    height: 140px;
+    position:absolute;
+    top: -70px;
+    left: 170px;
+    border-radius: 50%;
+}
+
+
+.footer > p{
+    margin-top: 100px;
+    font-size: 20px;
+    color:#F9F9F9;
+}
+
+.footer > div{
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.footer > div > a{
+    width: 50px;
+    height: 100px;
+    margin: 0 25px;
+    display: block;
+    text-align: center;
+}
+
+.footer > div > a{
+    font-size: 40px;
+    width: 60px;
+    height: 100px;
+    text-align: center;
+    text-decoration:none;
+    
+}
+.footer > div > a:hover{
+    filter: drop-shadow(0px 0px 2px #F9F9F9)
+}
+.footer > div > a > img{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.footer > div > a > span{
+    display: block;
+    font-size: 10px;
+    color: #F9F9F9;
+    text-align: center;
+}
